@@ -924,7 +924,7 @@ function renderPareto(){
     var pctBar = '<div style="display:flex;align-items:center;gap:6px">'
       +'<div style="width:60px;height:4px;background:#e2e8f0;border-radius:2px;overflow:hidden">'
       +'<div style="width:'+Math.min(d.pctAcum/80*100,100).toFixed(0)+'%;height:100%;background:var(--blue);border-radius:2px"></div></div>'
-      +'<span style="font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--blue)">'+d.pctAcum.toFixed(1)+'%</span></div>';
+      +'<span style="font-family:IBM Plex Mono,monospace;font-size:10px;color:var(--blue)">'+d.pctAcum.toFixed(1)+'%</span></div>';
     var tr=document.createElement('tr');
     tr.innerHTML=
       '<td class="td-code" style="color:var(--text-dim)">'+rank+'</td>'+
